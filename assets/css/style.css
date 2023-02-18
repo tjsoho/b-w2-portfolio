@@ -1,0 +1,78 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 20%;
+    background-color: rgba(255, 255, 255, 0.512);
+}
+
+ul {
+    flex-basis: 33%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-box {
+    flex: 1 0 150px;
+    padding: 2px;
+    text-align:center;
+    border-style: solid;
+    text-decoration: white;
+}
+  
+header {
+    background-color:#a4b691;
+    max-width: 100%;
+    max-height: 110%;
+    padding: 2% 0 2% 0;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 500%;
+}
+
+#header-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#Toby-image {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px white;
+}
+
+main{
+    background-color: rgb(27, 88, 27);
+    margin: 0% 0% 0% 0%;
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.346);
+    border: 1px solid white;
+    border-radius: 2%;
+    box-shadow: 0px 0px 20px white;
+    padding: 2% 4% 2% 4%;
+    margin: 5%;
+}
+
+.portfolio-hero-image {
+    max-width: 33%;
+    max-height: 33%;
+}
+
