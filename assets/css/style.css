@@ -1,5 +1,6 @@
 nav {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -65,7 +66,7 @@ main{
 .content-box {
     background-color: rgba(255, 255, 255, 0.346);
     border: 1px solid white;
-    border-radius: 2%;
+    border-radius: 5%;
     box-shadow: 0px 0px 20px white;
     padding: 2% 4% 2% 4%;
     margin: 5%;
@@ -74,5 +75,35 @@ main{
 .portfolio-hero-image {
     max-width: 33%;
     max-height: 33%;
+    border: solid white;
+    box-shadow: 4px 4px 20px black;
+    margin: 5%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    max-width: 33%;
+    max-height: 33%;
+    border: solid white;
+    box-shadow: 4px 4px 20px black;
+    margin: 5%;
+    transition: 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.2); 
+}
+
+img:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 50px pink;
+}
+
+img:active {
+filter: blur(4px);
+box-shadow: 0px 0px 50px rgb(248, 250, 248);
+transition: 5ms;
+}
