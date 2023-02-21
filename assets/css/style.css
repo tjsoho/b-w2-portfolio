@@ -93,13 +93,17 @@ main{
 /* Marker to break up menu and body content CSS */
 .content-container {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
     align-content: center;
     padding: 2%;
 }
 
 .content-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #CED89E;
     border: 1px solid white;
     border-radius: 30px;
@@ -126,7 +130,17 @@ main{
     margin: 2%;
 }
 
+.large-image-text-box {
+    position: absolute;
+    bottom: 80px;
+    right: 19%;
+    background-color:rgba(255, 255, 255, 0.701);
+    color: black;
+    padding: 10px;
+    width: 30%;
+}
 
+/* this is where flex wrap was added*/
 .image-container {
     display: flex;
     justify-content: space-evenly;
@@ -143,20 +157,10 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.large-image-text-box {
-    position: absolute;
-    bottom: 80px;
-    right: 95px;
-    background-color:rgba(255, 255, 255, 0.701);
-    color: black;
-    padding: 10px;
-    width: 70%;
-}
-
 .image-text-box {
     position: absolute;
     bottom: 20px;
-    right: 10px;
+    right: 5%;
     background-color:rgba(255, 255, 255, 0.701);
     color: black;
     padding: 10px;
@@ -185,6 +189,14 @@ filter: blur(4px);
 box-shadow: 0px 0px 50px rgb(248, 250, 248);
 transition: 5ms;
 }
+
+/*
+@media screen and (max-width: 992px) {
+    .zoom {
+      max-height: 500px;
+      aspect-ratio: 0.67/1;
+    }
+  }
 
 
 
