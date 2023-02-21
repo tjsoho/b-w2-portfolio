@@ -39,7 +39,7 @@ h1 {
     box-shadow: 0px 0px 20px white;
 }
 
-/* Marker to break up header and main content CSS */
+/* Marker to break up header and menu content CSS */
 
 nav {
     display: flex;
@@ -90,6 +90,7 @@ main{
     background-color: #FFDCAE;
 }
 
+/* Marker to break up menu and body content CSS */
 .content-container {
     display: flex;
     flex-direction: column;
@@ -109,19 +110,57 @@ main{
     margin: 1%;
 }
 
-.full-image-div {
-    padding: 2%;
-}
-
 .content-box h3 {
     padding: 5px 0 5px 0;
 }
+
+.large-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.large-image {
+    width: 1000px;
+    margin: 2%;
+}
+
 
 .image-container {
     display: flex;
     justify-content: space-evenly;
     height: 500px;
-    padding: 1%
+    padding: 0%;
+}
+
+.full-image-div {
+    padding: 2%;
+}
+
+.image-text-container {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.large-image-text-box {
+    position: absolute;
+    bottom: 80px;
+    right: 95px;
+    background-color:rgba(255, 255, 255, 0.701);
+    color: black;
+    padding: 10px;
+    width: 70%;
+}
+
+.image-text-box {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color:rgba(255, 255, 255, 0.701);
+    color: black;
+    padding: 10px;
+    width: 70%;
 }
 
 .zoom {
@@ -147,8 +186,5 @@ box-shadow: 0px 0px 50px rgb(248, 250, 248);
 transition: 5ms;
 }
 
-body,header,main,footer {
-    margin: 0;
-    padding: 0;
-}
+
 
