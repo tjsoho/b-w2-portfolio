@@ -61,6 +61,11 @@ nav {
     border-radius: 5px;
 }
 
+#sticky-nav {
+    position : sticky;
+     top :0;
+}
+
 .menu-box:hover {
     background-color: #FFDCAE;
 }
@@ -68,11 +73,6 @@ nav {
 .menu-box:active {
     border-radius: 10px;
     border-color:  rgb(25, 79, 25);
-}
-
-#sticky-nav {
-    position : sticky;
-     top :0;
 }
 
 a {
@@ -136,9 +136,9 @@ p {
 }
 
 .large-image-text-box {
-    position: absolute;
-    bottom: 80px;
-    right: 19%;
+    position: relative;
+    bottom: 18%;
+    right: -17%;
     background-color:rgba(255, 255, 255, 0.701);
     color: black;
     padding: 10px;
@@ -150,12 +150,10 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-    margin-bottom: 5%;
 }
 
 .full-image-div {
     flex-basis: 33%;
-    padding: 2%;
 }
 
 .zoom {
@@ -163,7 +161,6 @@ p {
     width: 70%;
     border: solid white;
     box-shadow: 4px 4px 20px white;
-    margin: 5%;
     transition: 1s;
 }
 
@@ -173,13 +170,13 @@ p {
 }
 
 .image-text-box {
-    position: absolute;
-    bottom: 20px;
-    right: 5%;
+    position: relative;
+    bottom: 20%;
+    right: -30%;
     background-color:rgba(255, 255, 255, 0.701);
     color: black;
-    padding: 10px;
-    width: 70%;
+    padding: 5px;
+    width: 50%;
 }
 
 .zoom:hover {
