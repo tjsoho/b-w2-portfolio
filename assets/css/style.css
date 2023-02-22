@@ -115,7 +115,7 @@ main{
 }
 
 .content-box h3 {
-    font-size: 150%;
+    font-size: 200%;
     padding: 5px 0 5px 0;
 }
 
@@ -194,13 +194,18 @@ img:active {
     transition: 5ms;
 }
 
-/*
+/* Responsive sizing for tablets*/
+
 @media screen and (max-width: 992px) {
-    .zoom {
-      max-height: 500px;
-      aspect-ratio: 0.67/1;
+    .large-image-container {
+        flex-basis: 60%;
+        margin-top: 10%;
+        margin-right: 16%;
     }
-  }
+
+    .full-image-div {
+        flex-basis: 40%;
+    }
 
 
 
