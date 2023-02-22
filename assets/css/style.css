@@ -64,6 +64,7 @@ nav {
 #sticky-nav {
     position : sticky;
      top :0;
+     z-index: 1;
 }
 
 .menu-box:hover {
@@ -195,17 +196,36 @@ img:active {
 }
 
 /* Responsive sizing for tablets*/
-
 @media screen and (max-width: 992px) {
     .large-image-container {
-        flex-basis: 60%;
-        margin-top: 10%;
-        margin-right: 16%;
+        flex-basis: 80%;
+        margin-right: 4%;
+        margin-left: 4%;
     }
 
     .full-image-div {
         flex-basis: 40%;
     }
 
+/* Responsive sizing for smart phones */
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 400%;
+        margin-left: 15%;
+    }
+    
+    #header-h2 {
+        font-style: italic;
+        margin: 2% 0% 5% 0%;
+    }
+    
+    .large-image-container {
+        flex-basis: 100%;
+        margin-left: 5%;
+    }
+
+    .full-image-div {
+        flex-basis:95%;
+    }
 
 
