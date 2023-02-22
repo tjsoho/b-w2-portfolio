@@ -115,7 +115,12 @@ main{
 }
 
 .content-box h3 {
+    font-size: 150%;
     padding: 5px 0 5px 0;
+}
+
+p {
+    margin-top: 20px;
 }
 
 .large-image-container {
@@ -140,9 +145,9 @@ main{
     width: 30%;
 }
 
-/* this is where flex wrap was added*/
 .image-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     height: 500px;
     padding: 0%;
