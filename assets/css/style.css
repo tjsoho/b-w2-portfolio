@@ -1,3 +1,8 @@
+:root {
+    --body: #FFDCAE;
+    --h4: black;
+}
+
 /* Header element is flex container: H1, H2, Toby Image are flex items */
 .header-container {
     display: flex;
@@ -68,7 +73,7 @@ nav {
 }
 
 .menu-box:hover {
-    background-color: #FFDCAE;
+    background-color: var(--body);
 }
 
 .menu-box:active {
@@ -118,6 +123,10 @@ main{
 .content-box h3 {
     font-size: 200%;
     padding: 5px 0 5px 0;
+}
+
+#contact {
+    font-size: 200%;
 }
 
 p {
@@ -193,6 +202,10 @@ img:active {
     filter: blur(4px);
     box-shadow: 0px 0px 50px rgb(248, 250, 248);
     transition: 5ms;
+}
+
+h4 {
+    color: var(--h4);
 }
 
 .contact-box {

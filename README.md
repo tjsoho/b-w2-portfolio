@@ -9,29 +9,25 @@ The purpose of this READme is to provide a detailed description of my personal p
 * A READme file detailing the assignment and the site
 * Html.index file
 * Assets folder that contains the following:
-* Png file of the expected mock up
+* Png file of the site
+* Png file of the wire frame
 * Css folder containing css style sheet
 * Images for the site
+* A reset CSS style sheet
+* A blank folder for future use for videos
 
-This website had already been created however there were a number of things that needed changing from the clients request.
+This site was built from scratch. No code was provided to begin.
 
-## Client Changes Requested
-* Write code so the sit is web accessible
-* Rewrite the code to be cleaner and follow correct semantic layout
-* Reduce unnecessary CSS code by creating classes to avoid doubling up on code
-* Fix links that don’t work
-* Add alt tags to images
-* Leaving the Site Better
+I started by using a wire frame to design the site followed by laying out the sections in HTML. I build this site from Desktop down which proved some difficulties when trying to resize. I am interested to see the ease difference next site I build by starting with the mobile first principal.
 
-In the original READme it said it’s always best practice to leave the site and the code better than when you found it.
-
-With this in mind I have made the following changes:
-* Made the aside box the same level as the article box so that it’s visually in line together
-* Created margins for the content inside the aside box so that it was inline with the content inside each article section.
+Areas that I found particularly difficult were understanding how to use and operate flex-box to suite my resizing needs.
 
 Below is a screenshot of what the site looks like now.
 
-![Alt text](Assets/Horiseon%20Marketing%20Agency%20Mockup.png)
+The wire frame within the repo is not identitcal to the site as I decided to make some design changes along the way.
+
+![Screenshot](./assets/images/Screen%20Shot%202023-02-23%20at%204.27.27%20pm.png) 
+![Screenshot](./assets/images/Screen%20Shot%202023-02-23%20at%204.27.35%20pm.png)
 
 ## Authors
 
