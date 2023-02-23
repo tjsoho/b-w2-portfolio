@@ -303,9 +303,8 @@ h5:hover:hover {
 @media screen and (max-width: 425px) {
    .contact-div {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         flex-basis: 100%;
-        justify-content: space-evenly;
    }
 }
