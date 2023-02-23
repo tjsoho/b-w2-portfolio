@@ -245,7 +245,7 @@ h5:hover:hover {
 /* Responsive sizing for tablets*/
 @media screen and (max-width: 992px) {
     .large-image-container {
-        flex-basis: 80%;
+        flex-basis: 90%;
         margin-right: 4%;
         margin-left: 4%;
     }
@@ -253,6 +253,18 @@ h5:hover:hover {
     .full-image-div {
         flex-basis: 40%;
     }
+
+    .large-image-text-box {
+        position: relative;
+        width: 50%;
+        margin-bottom: 2%;
+        bottom: 25%;
+        right: -10%;
+        background-color:rgba(255, 255, 255, 0.701);
+        color: black;
+        padding: 10px;
+    }
+}
 
 /* Responsive sizing for smart phones */
 @media screen and (max-width: 576px) {
@@ -271,8 +283,29 @@ h5:hover:hover {
         margin-left: 5%;
     }
 
+    .large-image-text-box {
+        position: relative;
+        width: 50%;
+        margin-bottom: 2%;
+        bottom: 25%;
+        right: -10%;
+        background-color:rgba(255, 255, 255, 0.701);
+        color: black;
+        padding: 10px;
+    }
+
     .full-image-div {
         flex-basis:95%;
     }
+}
 
-
+/* Responsive sizing for smart phones */
+@media screen and (max-width: 425px) {
+   .contact-div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        justify-content: space-evenly;
+   }
+}

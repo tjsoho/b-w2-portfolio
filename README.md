@@ -5,6 +5,9 @@ Week 2 Assignment: Portfolio
 ## Description
 The purpose of this READme is to provide a detailed description of my personal portfolio to show to prospective employers.
 
+The site can be accessed via this link:
+https://tjsoho.github.io/b-w2-portfolio/ 
+
 ### This repository contains:
 * A READme file detailing the assignment and the site
 * Html.index file
