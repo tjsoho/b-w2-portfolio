@@ -225,6 +225,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
+    margin-right: 10%;
 }
 
 h5 {    
