@@ -6,8 +6,8 @@ Week 2 Assignment: Portfolio
 The purpose of this READme is to provide a detailed description of my personal portfolio to show to prospective employers.
 
 ### This repository contains:
-* A READme file detailing the assignment and what the changes of the website are
-Html.index file
+* A READme file detailing the assignment and the site
+* Html.index file
 * Assets folder that contains the following:
 * Png file of the expected mock up
 * Css folder containing css style sheet
